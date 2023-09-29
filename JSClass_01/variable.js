@@ -9,7 +9,8 @@ Variable naming Rules:
 2: number sy start nai karskty like( 12abs )
 3: space aur '-' ka use nai kar saktay. like(my Name aur my-Name but we use underScore like my_Name) 
 4: camelCase ka use karna chayia like(myName , muneebJavaid)       
-          
+5: name should be meaningfull          
+
 
 
 Three types:
