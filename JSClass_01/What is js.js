@@ -18,7 +18,7 @@ script tag ke andar ham apna js ka code likhty hen aur ya tag ham head aur body 
 but best practices yahi ha ke body tag ke andar par use kiya jay 
 kyu kay upper jo html css ka code ha wo parse houa ho ga ham easily functionality add kar skty hen agar ham 
 first ma use karen gain tu ho skta ha ke ham kesi aesy element par functionality add krny ke koshsih kr rhy hen 
-jo parse nai houa.
+jo parse nai houa
 
 </script>
 

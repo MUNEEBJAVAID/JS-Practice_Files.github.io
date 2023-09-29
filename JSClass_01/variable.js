@@ -81,7 +81,7 @@ Const:
 
       const value = 8;
       console.log(value);
-      value = 10; Error
+      value = 10; error
 
 */
 
