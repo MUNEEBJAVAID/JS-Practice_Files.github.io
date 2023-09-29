@@ -11,7 +11,7 @@ ham osy kesi value sy intialize nai krty tu we undefined e rhta ha jab b access 
 var Muneeb;
  console.log(Muneeb); 
  console.log(typeof(Muneeb)); 
-
+.
 
 Null:
 

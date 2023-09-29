@@ -10,7 +10,7 @@ Variable naming Rules:
 3: space aur '-' ka use nai kar saktay. like(my Name aur my-Name but we use underScore like my_Name) 
 4: camelCase ka use karna chayia like(myName , muneebJavaid)       
 5: name should be meaningfull          
-
+.
 
 
 Three types:
