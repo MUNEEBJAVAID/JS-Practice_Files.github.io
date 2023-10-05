@@ -192,6 +192,23 @@ console.log(prize.sort((a , b) => a - b));
 
 * Descending Order:
 
+let prize = [100 , 20 , 400 , 500 , 410 , 100];
+let size = prize.length;
+for(let i = 0; i < size; i++){
+
+    for(let j = i + 1; j < size; j++){
+        let value = prize[i] - prize[j];
+        console.log(i , j);
+        if(value < 0){
+          
+            let temp = prize[i];
+            prize[i]  = prize[j];
+            prize[j] = temp;
+        }
+    }
+}
+
+
 
 */
 
