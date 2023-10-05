@@ -209,10 +209,46 @@ for(let i = 0; i < size; i++){
 }
 
 
+Filter Method:
+
+const fruits = [100 , 200 , 400 , 500 , 410 , 100];
+
+const newArray = fruits.filter(function (currElm) {
+    return currElm <= 400;
+    });       
+
+// const newArray = fruits.filter(currElm => currElm <= 400);
+console.log(newArray);
+
+Map Method:
+
+1: With array
+const fruits = [100 , 200 , 400 , 500 , 410 , 100];
+
+const newArray = fruits.map(function (currElm){
+    return currElm * 400;
+    });       
+
+// const newArray = fruits.map(currElm => currElm <= 400);
+console.log(newArray);
+
+with object:
+
+const prize = [100 , 200 , 400 , 500 , 410 , 100];
+
+let ans = prize.filter(value => value >200).map(nums => ({value:nums}));
+
+console.log(ans);
 
 */
 
 
 
 
-console.log(prize);
+const prize = [100 , 200 , 400 , 500 , 410 , 100];
+
+let ans = prize.filter(value => value >200).map(nums => ({value:nums}));
+
+console.log(ans);
+
+
