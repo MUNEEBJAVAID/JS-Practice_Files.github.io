@@ -158,6 +158,8 @@ let Split = joined.split("+");
 console.log(Split);
 
 
+Sorted Method:
+
 
 */
 
