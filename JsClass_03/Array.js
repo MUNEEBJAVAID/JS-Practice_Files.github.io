@@ -99,6 +99,22 @@ let arr2 = [5 ,6, 7, 8];
 let finalArray = arr.concat(arr2);
 console.log(finalArray);
 
+with object:
+
+let obj1 = {
+    No_ : 1,
+    Name_ : "Muneeb"
+};
+
+let obj2 = {
+    No : 2,
+    Name : "Rehman"
+};
+
+
+// let obj = Object.assign(obj1, obj2);
+let obj = {...obj1 , ...obj2};
+console.log(obj);
 
 Slice(start , end); 
 
@@ -148,6 +164,7 @@ arr.forEach((element , index , array) => console.log(`${index} : ${element} = ${
 
 
 Join method:
+
 let arr = [3,4,5,6,7,8,9];
 
 let joined = arr.join("+");
@@ -240,15 +257,9 @@ let ans = prize.filter(value => value >200).map(nums => ({value:nums}));
 
 console.log(ans);
 
+
+
 */
 
-
-
-
-const prize = [100 , 200 , 400 , 500 , 410 , 100];
-
-let ans = prize.filter(value => value >200).map(nums => ({value:nums}));
-
-console.log(ans);
 
 
