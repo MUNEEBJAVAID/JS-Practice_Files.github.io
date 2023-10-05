@@ -136,7 +136,7 @@ console.log(`${s1} ${s2}`);
 
 
 /*
-Data method
+Date method
 
 1: let date = new Date();
 console.log(Date.now());

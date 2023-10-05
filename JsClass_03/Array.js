@@ -15,6 +15,7 @@ arr.shift();
 console.log(arr.splice(1,0,9));
 
 Search on primitive type:
+
 1:indexOf(element , startingIndex):
 if Element present return index otherwise return -1
 console.log(arr.indexOf(5));
@@ -71,12 +72,99 @@ let res = arr.find(value => value.name === 1);
 let res = arr.findIndex(value => value.name === 2);
 
 
+Empyting an array:
+
+let arr = [1 , 2 ,3 ,4];
+let arr2 = arr;
+
+// Not a proper soltuion
+arr = [];
+console.log(arr2.lenth);
+console.log(arr.length);
+
+1: splice(0 , arr.length);
+
+2: arr.length = 0;
+
+3:let size = arr.length;
+for(let i = 0; i < size; i++){
+    arr.shift();
+}
+
+Concat():
+
+let arr = [1 , 2 ,3 ,4];
+let arr2 = [5 ,6, 7, 8];
+
+let finalArray = arr.concat(arr2);
+console.log(finalArray);
+
+
+Slice(start , end); 
+
+let arr = [1 , 2 ,3 ,4 ,6,7,8,9];
+
+
+let extractPart = arr.slice(2 , 6);
+console.log(extractPart);
+let extractPart = arr.slice( 0 , -3);
+console.log(extractPart)
+
+
+Spread Operator
+
+let array = [1 , 2];
+let array2 = [...array];
+
+array2[0] = "Muneeb";
+
+console.log(array);
+console.log(array2)
+
+
+ let array = [1 , 2];
+let array2 = [3,4,5,6,7,8,9];
+
+const UnionArray = [...array , ...array2];
+console.log(1 , 2 , ...array2)
+
+Iterate on array
+
+let arr = [3,4,5,6,7,8,9];
+
+for(const index in arr){
+    console.log(`${index} : ${arr[index]}`);
+}
+
+for(const value of arr){
+    console.log(value);
+}
+
+arr.forEach(function(element , index , array){
+console.log(`${index} : ${element} = ${array}`);
+});
+
+Join method:
+let arr = [3,4,5,6,7,8,9];
+
+let joined = arr.join("+");
+
+console.log(joined);
+console.log(typeof(joined));
+
+Split Method:
+
+let Split = joined.split("+");
+console.log(Split);
+
+
+
 */
 
-let arr = [
-    {name:1 , age:20},
-    {name:2 , age:22},
-];
+let arr = [3,4,5,6,7,8,9];
 
-let res = arr.findIndex(value => value.name === 2);
-console.log(res);
+let joined = arr.join("+");
+
+console.log(joined);
+console.log(typeof(joined));
+
