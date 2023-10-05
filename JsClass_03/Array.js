@@ -144,6 +144,9 @@ arr.forEach(function(element , index , array){
 console.log(`${index} : ${element} = ${array}`);
 });
 
+arr.forEach((element , index , array) => console.log(`${index} : ${element} = ${array}`);
+
+
 Join method:
 let arr = [3,4,5,6,7,8,9];
 
@@ -160,8 +163,39 @@ console.log(Split);
 
 Sorted Method:
 
+Asc Order:
+let arr = [5,4, 3, 6, 8];
+arr.sort();
+console.log(arr);
+arr.reverse();
+console.log(arr);
+
+
+let prize = [100 , 20 , 400 , 500 , 410 , 100];
+let size = prize.length;
+for(let i = 0; i < size; i++){
+
+    for(let j = i + 1; j < size; j++){
+        let value = prize[i] - prize[j];
+        console.log(i , j);
+        if(value > 0){
+          
+            let temp = prize[i];
+            prize[i]  = prize[j];
+            prize[j] = temp;
+        }
+    }
+}
+
+console.log(prize.sort((a , b) => a - b)); 
+
+
+* Descending Order:
+
 
 */
 
 
 
+
+console.log(prize);
