@@ -161,10 +161,5 @@ console.log(Split);
 
 */
 
-let arr = [3,4,5,6,7,8,9];
 
-let joined = arr.join("+");
-
-console.log(joined);
-console.log(typeof(joined));
 
