@@ -5,7 +5,7 @@ let arr = [ 2 ,4, 5, 6, 7];
 let totalSum = arr.reduce((accumulator , currValue) => accumulator + currValue);
 console.log(totalSum);
 
-// accumulator intialize with first 0
+// accumulator intialize with  0
 let totalSums = arr.reduce((accumulator , currValue) => accumulator + currValue , 0);
 console.log(totalSums);
 
