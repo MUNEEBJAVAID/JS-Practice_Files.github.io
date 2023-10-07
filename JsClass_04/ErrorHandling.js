@@ -20,8 +20,10 @@ const obj = {
     };
     
     try {
-        obj.func = "Muneeb";
+        obj.func = "Muneeb Javaid";
     } catch (error) {
         throw error;
+    }finally{
+        console.log("Finally");
     }
     
